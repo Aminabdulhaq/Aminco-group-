@@ -114,8 +114,9 @@
   .cta.small[disabled] { background: transparent; color: var(--bone-dim); border: 1px dashed var(--line); cursor: not-allowed; opacity: 0.7; }
   .cta.small[disabled]:hover { opacity: 0.7; }
 
-  .honey-import-note { font-size: 0.82rem; color: var(--bone-dim); line-height: 1.65; max-width: 640px; margin: 0 0 28px; padding: 10px 0 10px 14px; border-left: 2px solid var(--gold-dim); font-style: italic; }
-  html[dir="rtl"] .honey-import-note { padding: 10px 14px 10px 0; border-left: 0; border-right: 2px solid var(--gold-dim); font-style: normal; }
+  .honey-import-note { font-size: 0.84rem; color: var(--bone-dim); line-height: 1.7; max-width: 640px; margin: 0 0 28px; padding: 12px 16px; border-left: 2px solid var(--gold); background: rgba(212,168,83,0.05); }
+  .honey-import-note .honey-import-title { display: block; color: var(--gold); font-weight: 600; letter-spacing: 0.04em; margin-bottom: 4px; font-size: 0.9rem; }
+  html[dir="rtl"] .honey-import-note { border-left: 0; border-right: 2px solid var(--gold); }
 
   .honey-premium-intro { max-width: 640px; margin: 0 0 28px; }
   .honey-premium-heading { font-family: 'Fraunces', serif; font-size: clamp(1.15rem, 2.2vw, 1.5rem); margin: 0 0 6px; color: var(--fg); font-weight: 500; }
@@ -442,7 +443,10 @@
 
     <p class="honey-note" data-i18n="honeyStockNote">Prices and stock shown below are current. Gift Edition and VIP jars marked Sold Out are shown for reference and cannot be ordered until restocked.</p>
 
-    <p class="honey-import-note" data-i18n="honeyImportNote">Imported from Yemen. Queen Sheba Honey is sourced from Yemen and imported into Egypt. Prices are listed in EGP and may be adjusted in response to exchange-rate and import-cost changes.</p>
+    <div class="honey-import-note">
+      <strong class="honey-import-title" data-i18n="honeyImportTitle">Imported from Yemen 🇾🇪</strong>
+      <span data-i18n="honeyImportNote">Queen Sheba Sidr Honey is imported into Egypt, and our pricing reflects international sourcing, import costs, and exchange-rate fluctuations. Prices are listed in EGP and may be adjusted when these costs change.</span>
+    </div>
 
     <div class="honey-grid">
       <div class="honey-card" data-product="honey250std">
@@ -730,7 +734,8 @@ var I18N = {
     honeyH2: 'A heritage in every drop.',
     honeyDesc: 'Yemeni Sidr honey, brought to Egypt and presented with the care it deserves.',
     honeyIntro: 'Sourced from Sidr trees in Yemen, Queen Sheba Honey is distributed by Aminco Group across Cairo — in 250g, 550g, 1kg and 7kg presentations, including limited Gift Edition and VIP jars.',
-    honeyImportNote: 'Imported from Yemen. Queen Sheba Honey is sourced from Yemen and imported into Egypt. Prices are listed in EGP and may be adjusted in response to exchange-rate and import-cost changes.',
+    honeyImportTitle: 'Imported from Yemen 🇾🇪',
+    honeyImportNote: 'Queen Sheba Sidr Honey is imported into Egypt, and our pricing reflects international sourcing, import costs, and exchange-rate fluctuations. Prices are listed in EGP and may be adjusted when these costs change.',
     honeyStockNote: 'Prices and stock shown below are current. Gift Edition and VIP jars marked Sold Out are shown for reference and cannot be ordered until restocked.',
     honeyPremiumHeading: 'Queen Sheba Premium Asimi Sidr Honey',
     honeyPremiumSubheading: 'A Rare Taste of Yemen’s Mountain Heritage',
@@ -830,7 +835,8 @@ var I18N = {
     honeyH2: 'تراث في كل قطرة.',
     honeyDesc: 'عسل السدر اليمني، وصل إلى مصر وقُدّم بالعناية التي يستحقها.',
     honeyIntro: 'عسل ملكة سبأ مصدره أشجار السدر في اليمن، وتتولى مجموعة أمينكو توزيعه في القاهرة — بأحجام 250 جرام، و550 جرام، وكيلو، و7 كيلو، إضافة إلى إصدارات هدايا وتشكيلة VIP محدودة الكمية.',
-    honeyImportNote: 'مستورد من اليمن. يتم استيراد عسل ملكة سبأ من اليمن إلى مصر. الأسعار مدرجة بالجنيه المصري وقد يتم تعديلها تبعًا لتغيرات أسعار الصرف وتكاليف الاستيراد.',
+    honeyImportTitle: 'مستورد من اليمن 🇾🇪',
+    honeyImportNote: 'يتم استيراد عسل السدر من اليمن إلى مصر، وتعكس الأسعار تكاليف التوريد الدولي والاستيراد وتغيرات سعر صرف الدولار. الأسعار بالجنيه المصري وقد تتغير عند تغير هذه التكاليف.',
     honeyStockNote: 'الأسعار وحالة التوفر أدناه محدّثة. برطمانات إصدار الهدايا وتشكيلة VIP المُعلَّم عليها "نفدت الكمية" معروضة للاطلاع فقط ولا يمكن طلبها حتى تتوفر من جديد.',
     honeyPremiumHeading: 'كوين شيبا · عسل السدر العصيمي الفاخر',
     honeyPremiumSubheading: 'أصالة الجبال اليمنية في مذاق استثنائي',
