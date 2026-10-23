@@ -114,6 +114,9 @@
   .cta.small[disabled] { background: transparent; color: var(--bone-dim); border: 1px dashed var(--line); cursor: not-allowed; opacity: 0.7; }
   .cta.small[disabled]:hover { opacity: 0.7; }
 
+  .honey-import-note { font-size: 0.82rem; color: var(--bone-dim); line-height: 1.65; max-width: 640px; margin: 0 0 28px; padding: 10px 0 10px 14px; border-left: 2px solid var(--gold-dim); font-style: italic; }
+  html[dir="rtl"] .honey-import-note { padding: 10px 14px 10px 0; border-left: 0; border-right: 2px solid var(--gold-dim); font-style: normal; }
+
   .honey-premium-intro { max-width: 640px; margin: 0 0 28px; }
   .honey-premium-heading { font-family: 'Fraunces', serif; font-size: clamp(1.15rem, 2.2vw, 1.5rem); margin: 0 0 6px; color: var(--fg); font-weight: 500; }
   .honey-premium-subheading { font-size: 0.92rem; color: var(--gold-dim); margin: 0 0 14px; letter-spacing: 0.01em; }
@@ -439,6 +442,8 @@
 
     <p class="honey-note" data-i18n="honeyStockNote">Prices and stock shown below are current. Gift Edition and VIP jars marked Sold Out are shown for reference and cannot be ordered until restocked.</p>
 
+    <p class="honey-import-note" data-i18n="honeyImportNote">Imported from Yemen. Queen Sheba Honey is sourced from Yemen and imported into Egypt. Prices are listed in EGP and may be adjusted in response to exchange-rate and import-cost changes.</p>
+
     <div class="honey-grid">
       <div class="honey-card" data-product="honey250std">
         <div class="honey-photo-frame">
@@ -447,7 +452,7 @@
         <h3 data-i18n="p250stdName">Queen Sheba Sidr Honey, 250g</h3>
         <p class="honey-card-desc" data-i18n="p250stdDesc">A refined taste of Yemeni heritage. Discover the distinctive character and rich flavour of Yemeni Sidr honey in an elegant, approachable size.</p>
         <p class="honey-spec" data-i18n="p250stdSpec">250g net honey · glass jar</p>
-        <div class="honey-price" data-i18n="p250stdPrice">EGP 1,900</div>
+        <div class="honey-price" data-i18n="p250stdPrice">EGP 2,100</div>
         <span class="limited-badge small" data-i18n="limitedQtyMsg">Limited Quantities Available</span>
         <button type="button" class="cta small" onclick="openOrder('honey250std')" data-i18n="orderWaBtn">Order on WhatsApp</button>
       </div>
@@ -459,7 +464,7 @@
         <h3 data-i18n="p550stdName">Queen Sheba Sidr Honey, 550g</h3>
         <p class="honey-card-desc" data-i18n="p550stdDesc">A generous taste of Yemeni heritage, thoughtfully presented for those who value authenticity and refined taste.</p>
         <p class="honey-spec" data-i18n="p550stdSpec">550g net honey · glass jar</p>
-        <div class="honey-price" data-i18n="p550stdPrice">EGP 4,200</div>
+        <div class="honey-price" data-i18n="p550stdPrice">EGP 4,600</div>
         <span class="limited-badge small" data-i18n="limitedQtyMsg">Limited Quantities Available</span>
         <button type="button" class="cta small" onclick="openOrder('honey550std')" data-i18n="orderWaBtn">Order on WhatsApp</button>
       </div>
@@ -471,7 +476,7 @@
         <h3 data-i18n="p1kgstdName">Queen Sheba Premium Sidr Honey, 1kg</h3>
         <p class="honey-card-desc" data-i18n="p1kgstdDesc">A premium offering of Yemeni Sidr honey for those who appreciate its distinctive character and wish to share it on special occasions.</p>
         <p class="honey-spec" data-i18n="p1kgstdSpec">1kg net honey · glass jar</p>
-        <div class="honey-price" data-i18n="p1kgstdPrice">EGP 6,900</div>
+        <div class="honey-price" data-i18n="p1kgstdPrice">EGP 7,500</div>
         <span class="limited-badge small" data-i18n="limitedQtyMsg">Limited Quantities Available</span>
         <button type="button" class="cta small" onclick="openOrder('honey1kgstd')" data-i18n="orderWaBtn">Order on WhatsApp</button>
       </div>
@@ -483,7 +488,7 @@
         <h3 data-i18n="p7kgstdName">Queen Sheba Signature Reserve, 7kg</h3>
         <p class="honey-card-desc" data-i18n="p7kgstdDesc">A generous reserve for devoted Sidr honey enthusiasts and households that appreciate Yemeni heritage.</p>
         <p class="honey-spec" data-i18n="p7kgstdSpec">7kg net honey · food-grade container</p>
-        <div class="honey-price" data-i18n="p7kgstdPrice">EGP 45,000</div>
+        <div class="honey-price" data-i18n="p7kgstdPrice">EGP 47,000</div>
         <span class="limited-badge small" data-i18n="limitedQtyMsg">Limited Quantities Available</span>
         <button type="button" class="cta small" onclick="openOrder('honey7kgstd')" data-i18n="orderWaBtn">Order on WhatsApp</button>
       </div>
@@ -497,7 +502,7 @@
         <h3 data-i18n="p250giftName">Queen Sheba Gift Edition, 250g</h3>
         <p class="honey-card-desc" data-i18n="p250giftDesc">A thoughtful presentation of Yemeni Sidr honey, created for meaningful occasions and memorable gestures.</p>
         <p class="honey-spec" data-i18n="p250giftSpec">250g net honey · gift presentation</p>
-        <div class="honey-price" data-i18n="p250giftPrice">EGP 2,200</div>
+        <div class="honey-price" data-i18n="p250giftPrice">EGP 2,400</div>
         <button type="button" class="cta small" disabled data-i18n="soldOutBtn">Sold Out</button>
       </div>
 
@@ -510,7 +515,7 @@
         <h3 data-i18n="p550giftName">Queen Sheba Gift Edition, 550g</h3>
         <p class="honey-card-desc" data-i18n="p550giftDesc">An elevated gift presentation celebrating the heritage of Yemeni Sidr honey and the art of thoughtful giving.</p>
         <p class="honey-spec" data-i18n="p550giftSpec">550g net honey · presentation box</p>
-        <div class="honey-price" data-i18n="p550giftPrice">EGP 4,900</div>
+        <div class="honey-price" data-i18n="p550giftPrice">EGP 5,300</div>
         <button type="button" class="cta small" disabled data-i18n="soldOutBtn">Sold Out</button>
       </div>
 
@@ -523,7 +528,7 @@
         <h3 data-i18n="p1kggiftName">Queen Sheba Premium Gift Edition, 1kg</h3>
         <p class="honey-card-desc" data-i18n="p1kggiftDesc">A refined gift experience pairing the distinctive character of Yemeni Sidr honey with elegant presentation.</p>
         <p class="honey-spec" data-i18n="p1kggiftSpec">1kg net honey · presentation box</p>
-        <div class="honey-price" data-i18n="p1kggiftPrice">EGP 7,500</div>
+        <div class="honey-price" data-i18n="p1kggiftPrice">EGP 8,200</div>
         <button type="button" class="cta small" disabled data-i18n="soldOutBtn">Sold Out</button>
       </div>
 
@@ -536,7 +541,7 @@
         <h3 data-i18n="vipName">Queen Sheba VIP Collection, 7kg</h3>
         <p class="honey-card-desc" data-i18n="vipDesc">Our distinguished large-format collection, presented in a wooden presentation box, celebrating Yemeni Sidr heritage through an exceptional gift experience.</p>
         <p class="honey-spec" data-i18n="vipSpec">7kg net honey · wooden presentation box, spoon &amp; personalized keychain</p>
-        <div class="honey-price" data-i18n="vipPrice">EGP 50,000</div>
+        <div class="honey-price" data-i18n="vipPrice">EGP 53,000</div>
         <button type="button" class="cta small" disabled data-i18n="soldOutBtn">Sold Out</button>
       </div>
     </div>
@@ -696,7 +701,7 @@
 
 <script>
 var currentLang = 'en';
-var WA_NUMBER = "201026626616";
+var WA_NUMBER = "201003332345";
 
 var I18N = {
   en: {
@@ -725,6 +730,7 @@ var I18N = {
     honeyH2: 'A heritage in every drop.',
     honeyDesc: 'Yemeni Sidr honey, brought to Egypt and presented with the care it deserves.',
     honeyIntro: 'Sourced from Sidr trees in Yemen, Queen Sheba Honey is distributed by Aminco Group across Cairo — in 250g, 550g, 1kg and 7kg presentations, including limited Gift Edition and VIP jars.',
+    honeyImportNote: 'Imported from Yemen. Queen Sheba Honey is sourced from Yemen and imported into Egypt. Prices are listed in EGP and may be adjusted in response to exchange-rate and import-cost changes.',
     honeyStockNote: 'Prices and stock shown below are current. Gift Edition and VIP jars marked Sold Out are shown for reference and cannot be ordered until restocked.',
     honeyPremiumHeading: 'Queen Sheba Premium Asimi Sidr Honey',
     honeyPremiumSubheading: 'A Rare Taste of Yemen’s Mountain Heritage',
@@ -734,29 +740,29 @@ var I18N = {
     soldOutLabel: 'Sold Out', soldOutBtn: 'Sold Out', orderWaBtn: 'Order on WhatsApp',
     p250stdName: 'Queen Sheba Sidr Honey, 250g',
     p250stdDesc: 'A refined taste of Yemeni heritage. Discover the distinctive character and rich flavour of Yemeni Sidr honey in an elegant, approachable size.',
-    p250stdSpec: '250g net honey · glass jar', p250stdPrice: 'EGP 1,900',
+    p250stdSpec: '250g net honey · glass jar', p250stdPrice: 'EGP 2,100',
     p550stdName: 'Queen Sheba Sidr Honey, 550g',
     p550stdDesc: 'A generous taste of Yemeni heritage, thoughtfully presented for those who value authenticity and refined taste.',
-    p550stdSpec: '550g net honey · glass jar', p550stdPrice: 'EGP 4,200',
+    p550stdSpec: '550g net honey · glass jar', p550stdPrice: 'EGP 4,600',
     p1kgstdName: 'Queen Sheba Premium Sidr Honey, 1kg',
     p1kgstdDesc: 'A premium offering of Yemeni Sidr honey for those who appreciate its distinctive character and wish to share it on special occasions.',
-    p1kgstdSpec: '1kg net honey · glass jar', p1kgstdPrice: 'EGP 6,900',
+    p1kgstdSpec: '1kg net honey · glass jar', p1kgstdPrice: 'EGP 7,500',
     p7kgstdName: 'Queen Sheba Signature Reserve, 7kg',
     p7kgstdDesc: 'A generous reserve for devoted Sidr honey enthusiasts and households that appreciate Yemeni heritage.',
-    p7kgstdSpec: '7kg net honey · food-grade container', p7kgstdPrice: 'EGP 45,000',
+    p7kgstdSpec: '7kg net honey · food-grade container', p7kgstdPrice: 'EGP 47,000',
     p250giftName: 'Queen Sheba Gift Edition, 250g',
     p250giftDesc: 'A thoughtful presentation of Yemeni Sidr honey, created for meaningful occasions and memorable gestures.',
-    p250giftSpec: '250g net honey · gift presentation', p250giftPrice: 'EGP 2,200',
+    p250giftSpec: '250g net honey · gift presentation', p250giftPrice: 'EGP 2,400',
     p550giftName: 'Queen Sheba Gift Edition, 550g',
     p550giftDesc: 'An elevated gift presentation celebrating the heritage of Yemeni Sidr honey and the art of thoughtful giving.',
-    p550giftSpec: '550g net honey · presentation box', p550giftPrice: 'EGP 4,900',
+    p550giftSpec: '550g net honey · presentation box', p550giftPrice: 'EGP 5,300',
     p1kggiftName: 'Queen Sheba Premium Gift Edition, 1kg',
     p1kggiftDesc: 'A refined gift experience pairing the distinctive character of Yemeni Sidr honey with elegant presentation.',
-    p1kggiftSpec: '1kg net honey · presentation box', p1kggiftPrice: 'EGP 7,500',
+    p1kggiftSpec: '1kg net honey · presentation box', p1kggiftPrice: 'EGP 8,200',
     vipName: 'Queen Sheba VIP Collection, 7kg',
     vipDesc: 'Our distinguished large-format collection, presented in a wooden presentation box, celebrating Yemeni Sidr heritage through an exceptional gift experience.',
     vipSpec: '7kg net honey · wooden presentation box, spoon &amp; personalized keychain',
-    vipPrice: 'EGP 50,000',
+    vipPrice: 'EGP 53,000',
     carwashLabel: 'Aminco Car Services',
     carwashH2: 'Premium care, wherever your car is.',
     carwashDesc: 'Your car doesn\u2019t need to leave home to look its best.',
@@ -824,6 +830,7 @@ var I18N = {
     honeyH2: 'تراث في كل قطرة.',
     honeyDesc: 'عسل السدر اليمني، وصل إلى مصر وقُدّم بالعناية التي يستحقها.',
     honeyIntro: 'عسل ملكة سبأ مصدره أشجار السدر في اليمن، وتتولى مجموعة أمينكو توزيعه في القاهرة — بأحجام 250 جرام، و550 جرام، وكيلو، و7 كيلو، إضافة إلى إصدارات هدايا وتشكيلة VIP محدودة الكمية.',
+    honeyImportNote: 'مستورد من اليمن. يتم استيراد عسل ملكة سبأ من اليمن إلى مصر. الأسعار مدرجة بالجنيه المصري وقد يتم تعديلها تبعًا لتغيرات أسعار الصرف وتكاليف الاستيراد.',
     honeyStockNote: 'الأسعار وحالة التوفر أدناه محدّثة. برطمانات إصدار الهدايا وتشكيلة VIP المُعلَّم عليها "نفدت الكمية" معروضة للاطلاع فقط ولا يمكن طلبها حتى تتوفر من جديد.',
     honeyPremiumHeading: 'كوين شيبا · عسل السدر العصيمي الفاخر',
     honeyPremiumSubheading: 'أصالة الجبال اليمنية في مذاق استثنائي',
@@ -833,29 +840,29 @@ var I18N = {
     soldOutLabel: 'نفدت الكمية', soldOutBtn: 'نفدت الكمية', orderWaBtn: 'اطلب عبر واتساب',
     p250stdName: 'عسل ملكة سبأ السدر، 250 جم',
     p250stdDesc: 'تجربة راقية من عسل السدر اليمني الأصيل، بمذاقه الغني وطابعه المميز في حجم أنيق.',
-    p250stdSpec: '250 جرام عسل صافٍ · برطمان زجاجي', p250stdPrice: '1,900 جنيه',
+    p250stdSpec: '250 جرام عسل صافٍ · برطمان زجاجي', p250stdPrice: '2,100 جنيه',
     p550stdName: 'عسل ملكة سبأ السدر، 550 جم',
     p550stdDesc: 'حجم مميز للاستمتاع بمذاق عسل السدر اليمني الغني، بتقديم أنيق يجمع بين الأصالة والذوق الرفيع.',
-    p550stdSpec: '550 جرام عسل صافٍ · برطمان زجاجي', p550stdPrice: '4,200 جنيه',
+    p550stdSpec: '550 جرام عسل صافٍ · برطمان زجاجي', p550stdPrice: '4,600 جنيه',
     p1kgstdName: 'عسل ملكة سبأ السدر الفاخر، 1 كجم',
     p1kgstdDesc: 'اختيار فاخر من عسل السدر اليمني لعشاق مذاقه المميز ولمشاركته في المناسبات الخاصة.',
-    p1kgstdSpec: '1 كجم عسل صافٍ · برطمان زجاجي', p1kgstdPrice: '6,900 جنيه',
+    p1kgstdSpec: '1 كجم عسل صافٍ · برطمان زجاجي', p1kgstdPrice: '7,500 جنيه',
     p7kgstdName: 'تشكيلة ملكة سبأ المختارة، 7 كجم',
     p7kgstdDesc: 'حجم استثنائي لعشاق عسل السدر اليمني وللبيوت التي تقدّر الأصالة والكرم.',
-    p7kgstdSpec: '7 كجم عسل صافٍ · عبوة غذائية', p7kgstdPrice: '45,000 جنيه',
+    p7kgstdSpec: '7 كجم عسل صافٍ · عبوة غذائية', p7kgstdPrice: '47,000 جنيه',
     p250giftName: 'إصدار الهدايا من ملكة سبأ، 250 جم',
     p250giftDesc: 'هدية راقية من عسل السدر اليمني، صُممت للمناسبات المميزة وللتعبير عن التقدير بذوق استثنائي.',
-    p250giftSpec: '250 جرام عسل صافٍ · تغليف هدية', p250giftPrice: '2,200 جنيه',
+    p250giftSpec: '250 جرام عسل صافٍ · تغليف هدية', p250giftPrice: '2,400 جنيه',
     p550giftName: 'إصدار الهدايا من ملكة سبأ، 550 جم',
     p550giftDesc: 'تقديم فاخر يجمع بين عراقة عسل السدر اليمني وفن اختيار الهدايا الراقية.',
-    p550giftSpec: '550 جرام عسل صافٍ · صندوق عرض', p550giftPrice: '4,900 جنيه',
+    p550giftSpec: '550 جرام عسل صافٍ · صندوق عرض', p550giftPrice: '5,300 جنيه',
     p1kggiftName: 'إصدار الهدايا الفاخر من ملكة سبأ، 1 كجم',
     p1kggiftDesc: 'تجربة إهداء راقية تجمع بين تميز عسل السدر اليمني والتقديم الأنيق.',
-    p1kggiftSpec: '1 كجم عسل صافٍ · صندوق عرض', p1kggiftPrice: '7,500 جنيه',
+    p1kggiftSpec: '1 كجم عسل صافٍ · صندوق عرض', p1kggiftPrice: '8,200 جنيه',
     vipName: 'تشكيلة VIP من ملكة سبأ، 7 كجم',
     vipDesc: 'مجموعتنا المميزة بحجمها الاستثنائي وعلبتها الخشبية الفاخرة، تحتفي بإرث عسل السدر اليمني في تجربة إهداء استثنائية.',
     vipSpec: '7 كجم عسل صافٍ · صندوق عرض خشبي وملعقة وميدالية مفاتيح مخصصة',
-    vipPrice: '50,000 جنيه',
+    vipPrice: '53,000 جنيه',
     carwashLabel: 'خدمات أمينكو للسيارات',
     carwashH2: 'عناية فاخرة، أينما كانت سيارتك.',
     carwashDesc: 'سيارتك لا تحتاج أن تغادر المنزل لتبدو في أبهى حالاتها.',
@@ -926,7 +933,7 @@ var ORDER_FIELDS = {
     intro: "Queen Sheba Honey — Order Request", intro_ar: "عسل ملكة سبأ — طلب شراء",
     productName: "Queen Sheba Sidr Honey, 250g", productName_ar: "عسل ملكة سبأ السدر، 250 جم",
     netWeight: "250g", netWeight_ar: "250 جرام",
-    unitPrice: 1900,
+    unitPrice: 2100,
     fields: [
       {id:'qty', label:'Quantity', label_ar:'الكمية', type:'number', value:'1', min:'1'},
       {id:'name', label:'Full name', label_ar:'الاسم بالكامل', type:'text'},
@@ -939,7 +946,7 @@ var ORDER_FIELDS = {
     intro: "Queen Sheba Honey — Order Request", intro_ar: "عسل ملكة سبأ — طلب شراء",
     productName: "Queen Sheba Sidr Honey, 550g", productName_ar: "عسل ملكة سبأ السدر، 550 جم",
     netWeight: "550g", netWeight_ar: "550 جرام",
-    unitPrice: 4200,
+    unitPrice: 4600,
     fields: [
       {id:'qty', label:'Quantity', label_ar:'الكمية', type:'number', value:'1', min:'1'},
       {id:'name', label:'Full name', label_ar:'الاسم بالكامل', type:'text'},
@@ -952,7 +959,7 @@ var ORDER_FIELDS = {
     intro: "Queen Sheba Honey — Order Request", intro_ar: "عسل ملكة سبأ — طلب شراء",
     productName: "Queen Sheba Premium Sidr Honey, 1kg", productName_ar: "عسل ملكة سبأ السدر الفاخر، 1 كجم",
     netWeight: "1kg", netWeight_ar: "1 كجم",
-    unitPrice: 6900,
+    unitPrice: 7500,
     fields: [
       {id:'qty', label:'Quantity', label_ar:'الكمية', type:'number', value:'1', min:'1'},
       {id:'name', label:'Full name', label_ar:'الاسم بالكامل', type:'text'},
@@ -965,7 +972,7 @@ var ORDER_FIELDS = {
     intro: "Queen Sheba Honey — Order Request", intro_ar: "عسل ملكة سبأ — طلب شراء",
     productName: "Queen Sheba Signature Reserve, 7kg", productName_ar: "تشكيلة ملكة سبأ المختارة، 7 كجم",
     netWeight: "7kg", netWeight_ar: "7 كجم",
-    unitPrice: 45000,
+    unitPrice: 47000,
     fields: [
       {id:'qty', label:'Quantity', label_ar:'الكمية', type:'number', value:'1', min:'1'},
       {id:'name', label:'Full name', label_ar:'الاسم بالكامل', type:'text'},
