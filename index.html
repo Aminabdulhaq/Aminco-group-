@@ -36,7 +36,20 @@
      "English",
      "Arabic"
     ]
+   },
+   "founder": {
+    "@id": "https://aminabdulhaq.com/#person"
    }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://aminabdulhaq.com/#person",
+   "name": "Amin Abdulhaq",
+   "url": "https://aminabdulhaq.com/",
+   "sameAs": [
+    "https://www.instagram.com/amin_abdulhaq/",
+    "https://www.linkedin.com/in/amin-abdulhaq-b216a129a/"
+   ]
   },
   {
    "@type": "AutoWash",
@@ -404,6 +417,9 @@
   .footer-links { display: flex; justify-content: center; gap: 20px; margin-bottom: 14px; font-size: 0.88rem; }
   .footer-links a { text-decoration: none; color: var(--bone-dim); }
   .footer-links a:hover { color: var(--gold); }
+  .footer-social { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 16px; margin-bottom: 18px; font-size: 0.85rem; }
+  .footer-social a { text-decoration: none; color: var(--bone-dim); }
+  .footer-social a:hover { color: var(--gold); }
   .footer-location { margin-bottom: 22px; }
 
   .order-modal { position: fixed; inset: 0; z-index: 60; display: none; align-items: center; justify-content: center; padding: 20px; }
@@ -881,6 +897,7 @@
       <a href="#carwash" data-i18n="footerCarwash">Car Services</a>
       <a href="#transport" data-i18n="footerTransport">Transport</a>
     </nav>
+    <div class="footer-social" dir="ltr"><a href="https://aminabdulhaq.com/" rel="noopener">Amin Abdulhaq</a><a href="https://www.linkedin.com/in/amin-abdulhaq-b216a129a/" target="_blank" rel="me noopener">LinkedIn</a><a href="https://www.instagram.com/amin_abdulhaq/" target="_blank" rel="me noopener">Instagram</a></div>
     <div class="footer-location" data-i18n="footerLocation">Cairo, Egypt</div>
     <button type="button" class="cta preview" onclick="openOrder('contact')" data-i18n="heroCtaSecondary">Contact Aminco Group</button>
   </div>
